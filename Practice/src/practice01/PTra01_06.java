@@ -17,6 +17,10 @@ public class PTra01_06 {
 
 		// ★ 変数 str の中身を出力してください
 
+		String str;
 
+		str = "田川 拓人";
+
+	System.out.println(str);
 	}
 }

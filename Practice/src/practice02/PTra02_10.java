@@ -22,5 +22,17 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		int goukei;
+		double zei;
+
+		goukei = coffee * 2 + snack;
+
+		zei = goukei *0.08;
+
+		goukei = goukei + (int)zei;
+
+	 	moneyInHand = moneyInHand - goukei;
+
+	System.out.println(moneyInHand);
 	}
 }

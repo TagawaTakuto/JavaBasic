@@ -32,7 +32,11 @@ public class PTra03_04 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-
+		if(num / 4 * 4 == num && num != num / 100 * 100) {
+			System.out.println(num + "年はうるう年です。");
+		}else if(num == num / 400 * 400) {
+				System.out.println(num + "年はうるう年です。");
+		}
 
 	}
 }

@@ -47,20 +47,40 @@ public class PTra04_05 {
 			if (cpuHand == 0) {
 				System.out.println("グー！");
 
-
-
+				switch(myHand){
+				 		case 0:
+						case 1:
+							winFlg  =false;
+							break;
+						case 2:
+							winFlg = true;
+				}
 			} else if (cpuHand == 1) {
 				System.out.println("チョキ！！");
 
-
+				switch(myHand) {
+					case 0:
+						winFlg = true;
+						break;
+					case 1:
+					case 2:
+						winFlg = false;
+						break;
+				}
 
 			} else {
 				System.out.println("パー！！");
 
-
-
+			switch(myHand) {
+			case 0:
+			case 2:
+				winFlg = false;
+				break;
+			case 1:
+				winFlg = true;
+				break;
 			}
-
+		  }
 		}
 	}
 }

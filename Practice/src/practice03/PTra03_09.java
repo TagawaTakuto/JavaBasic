@@ -18,5 +18,16 @@ public class PTra03_09 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+	int day = new java.util.Scanner(System.in).nextInt();
+
+	if(day == 0) {System.out.println("日曜日");
+		}else if(day == 1) {System.out.println("月曜日");
+			}else if(day == 2) {System.out.println("火曜日");
+				}else if(day == 3) {System.out.println("水曜日");
+					}else if(day == 4) {System.out.println("木曜日");
+						}else if(day == 5) {System.out.println("金曜日");
+							}else if(day == 6) {System.out.println("土曜日");
+								}else{System.out.println("0～6の整数を入力してください");
+							}
 	}
 }

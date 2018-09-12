@@ -23,10 +23,8 @@ public class PTra07_01 {
 		array[4] = 13;
 
 		// ★ 変数arrayに格納されている値を前から順番に全て表示してください
-		System.out.println(array[0]);
-		System.out.println(array[1]);
-		System.out.println(array[2]);
-		System.out.println(array[3]);
-		System.out.println(array[4]);
+		for(int value: array) {
+			System.out.println(value);
+		}
 	}
 }

@@ -19,8 +19,8 @@ public class PTra07_02 {
 
 
 		// ★ 変数arrayに格納されている値を前から順番に全て表示してください
-		for(int s = 0 ; s < 1000 ; s++) {
-			System.out.println(array[s]);
+		for(int value : array) {
+			System.out.println(value);
 		}
 	}
 }

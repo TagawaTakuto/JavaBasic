@@ -23,8 +23,7 @@ public class PTra06_06 {
 			for(int B = 0 ; B < i ; B++) {
 
 				System.out.print("■");}
-
-					for(int H = 5 ; H > i ; H--) {
+					for(int W = 5 ; W > i ; W--) {
 				System.out.print("□");}
 					System.out.println("");
 		}

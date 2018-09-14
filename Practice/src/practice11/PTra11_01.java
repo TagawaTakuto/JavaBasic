@@ -13,8 +13,8 @@ public class PTra11_01 {
 		 * 以下のプログラムではコンパイルエラーが起きてしまいます
 		 * ★ コンパイルが通るように修正してください(引数5つのコンストラクタを利用すること)
 		 */
-		Book book = new Book();
-		book.title = "スッキリわかるJava入門";
+		Book book = new Book(null, null, 0, 0, null);
+	 	book.title = "スッキリわかるJava入門";
 		book.author = "中山清喬／国本大悟";
 		book.price = 2600;
 		book.pageSize = 657;

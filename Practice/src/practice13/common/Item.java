@@ -12,9 +12,28 @@ package practice13.common;
  * 		name, additionalDamageに初期値を設定するコンストラクタ
  * 		上記2つを設定するための引数を持つ
  */
-public class Item {
-	String name;
-	int additionalDamage;
-}
+	public class Item {
+		private String name;
+		private int additionalDamage;
 
-public 
+
+	public String setName(String name) {
+		return this.name =name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int setAdditionalDamage(int additionalDamage) {
+		return this.additionalDamage = additionalDamage;
+	}
+	public int getAdditionalDamage() {
+		return additionalDamage;
+	}
+Item(){
+	this.name = "null";
+	this.additionalDamage = 0;
+
+	}
+}

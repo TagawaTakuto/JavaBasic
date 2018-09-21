@@ -14,11 +14,11 @@ package practice13.common;
  */
 	public class Item {
 		private String name;
-		private int additionalDamage;
+		private static int additionalDamage;
 
 
 	public String setName(String name) {
-		return this.name =name;
+		return this.name = name;
 	}
 
 	public String getName() {
@@ -28,7 +28,7 @@ package practice13.common;
 	public int setAdditionalDamage(int additionalDamage) {
 		return this.additionalDamage = additionalDamage;
 	}
-	public int getAdditionalDamage() {
+	public static int getAdditionalDamage() {
 		return additionalDamage;
 	}
 Item(){

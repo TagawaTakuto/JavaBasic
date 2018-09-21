@@ -4,7 +4,7 @@ public class Hero extends Character {
 
 
 	public Hero() {
-		super(25,  10, 7);
+		super(25, 10, 7);
 
 	}
 }

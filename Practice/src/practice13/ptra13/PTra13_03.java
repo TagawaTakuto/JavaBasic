@@ -6,6 +6,8 @@
  */
 package practice13.ptra13;
 
+import practice13.common.Slime;
+
 public class PTra13_03 {
 
 	/*
@@ -15,12 +17,12 @@ public class PTra13_03 {
 
 	public static void main(String[] args) {
 		// ★ common.Slimeクラスをインスンタンス化してください
-
+		Slime sl = new Slime(0,0,0);
 
 		// ★ common.Slimeインスタンスのnameに"スライム"を設定して下さい
-
+		sl.setName("スライム");
 
 		// ★ common.Slimeインスタンスのキャラクター情報を表示してください
-
+		System.out.println(sl.showParameter());
 	}
 }

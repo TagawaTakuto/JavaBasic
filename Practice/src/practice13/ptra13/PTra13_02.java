@@ -6,6 +6,8 @@
  */
 package practice13.ptra13;
 
+import practice13.common.Hero;
+
 public class PTra13_02 {
 
 	/*
@@ -13,14 +15,15 @@ public class PTra13_02 {
 	 * 	●HP, POWER, ENDURANCEはそれぞれ、（25, 10, 7）
 	 */
 
+
 	public static void main(String[] args) {
 		// ★ common.Heroクラスをインスンタンス化してください
+		Hero hr = new Hero();
 
-
-		// ★ common.Heroインスタンスのnameに"勇者"を設定して下さい
-
+		// ★ common.Heroインスタンスのnameに"勇者"を設定してください
+		hr.setName("勇者");
 
 		// ★ common.Heroインスタンスのキャラクター情報を表示してください
-
+		System.out.println(hr.showParameter());
 	}
 }

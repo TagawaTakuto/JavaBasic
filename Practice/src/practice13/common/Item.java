@@ -31,7 +31,7 @@ package practice13.common;
 	public static int getAdditionalDamage() {
 		return additionalDamage;
 	}
-Item(){
+	public Item(){
 	this.name = "null";
 	this.additionalDamage = 0;
 

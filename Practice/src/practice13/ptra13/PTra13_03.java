@@ -17,7 +17,7 @@ public class PTra13_03 {
 
 	public static void main(String[] args) {
 		// ★ common.Slimeクラスをインスンタンス化してください
-		Slime sl = new Slime(0,0,0);
+		Slime sl = new Slime();
 
 		// ★ common.Slimeインスタンスのnameに"スライム"を設定して下さい
 		sl.setName("スライム");

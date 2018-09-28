@@ -18,6 +18,15 @@ public class PTra16_02 {
 		float f = 3.14F;
 		double d = 453.592;
 
+		java.lang.Boolean B = b;
+		java.lang.Byte By = by;
+		java.lang.Short S = s;
+		java.lang.Character C = c;
+		java.lang.Integer I = i;
+		java.lang.Long L = l;
+		java.lang.Float F = f;
+		java.lang.Double D = d;
+
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
 	}
 }

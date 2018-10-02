@@ -15,25 +15,41 @@ public class Player {
 	 * 		toString()	：	Objectクラスのオーバーライド
 	 * 		各フィールドの値を、カンマ区切りの文字列で取得する
 	 */
-	private static String position;
-	private static String name;
-	private static String country;
-	private static String team;
+	private  String position;
+	private  String name;
+	private  String country;
+	private  String team;
 
 	public String getPosition(){
 		return this.position;
+	}
+
+	public void setPosition(String position) {
+		this.position = position;
 	}
 
 	public String getName() {
 		return this.name;
 	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public String getCountry() {
 		return this.country;
 	}
 
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
 	public String getTeam() {
 		return this.team;
+	}
+
+	public void setTeam(String team) {
+		this.team = team;
 	}
 
 	public String toString(){
